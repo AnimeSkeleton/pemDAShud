@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/logo_red"
+	"$translucent" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+
+	"$sin_alpha" 0
+	"$sin_scale" 0
+	"$sin_ofs" 0
+	"$sin_rotate" 0
+
+	"$scale" 0.9
+	"$scale_ofs" 0
+	"$texoffset"	"[0 0]"
+	"$midofs" 0.0
+}
