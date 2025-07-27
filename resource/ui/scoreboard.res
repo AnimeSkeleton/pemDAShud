@@ -309,7 +309,6 @@
 		"zpos"			"20"
 		"wide"			"480"
 		"tall"			"160"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"autoresize"	"3"
