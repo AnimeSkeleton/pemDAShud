@@ -319,8 +319,9 @@
 		"xpos"	"0"
 		"ypos"	"0"
 		"zpos"	"6"
-		"wide"	"50"
-		"tall"	"50"
+		"wide"	"f0"
+		"tall"	"f0"
+		
 		"TextFont"	"Default"
 		"ItemFont"	"Default"
 		"ItemFontPulsing"	"Default"
