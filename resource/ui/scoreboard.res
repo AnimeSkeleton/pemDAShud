@@ -21,6 +21,8 @@
 		"ping_width"		"30"
 		"killstreak_width"	"30"
 		"killstreak_image_width" "24"
+		"medal_width"        "24"
+		"medal_column_width" "18"
 	}
 
 	//SERVER INFO ROW

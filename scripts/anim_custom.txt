@@ -115,18 +115,22 @@ event HudSpyDisguiseFadeOut
 	Animate PlayerStatusSpyImage			Alpha		"0"				Spline 0.9 0.1	
 }
 
+//FIX STOPPED ANIMATIONS
+event DefaultAnimCompetitiveGame_RestoreChatWindow
+{
+	Animate HudChat ypos r240 Accel 0 0
+
+	RunEvent HudHealthDyingPulseStop
+	RunEvent HudHealthBonusPulseStop
+	
+	RunEvent HudLowAmmoPulseStop
+}
 
 //CHAT WINDOW
 event DefaultAnimCompetitiveGame_LowerChatWindow
 {
 	Animate HudChat ypos r240 Accel 0 0
 }
-
-event DefaultAnimCompetitiveGame_RestoreChatWindow
-{
-	Animate HudChat ypos r240 Accel 0 0
-}
-
 event DefaultAnimHudTournament_MoveChatWindow
 {
 	RunEvent CompetitiveGame_LowerChatWindow 0

@@ -5,16 +5,17 @@
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r330"
-		"ypos"	 "10"
-		"wide"	 "320"
-		"tall"	 "320"
+		"xpos"	 "r364"
+		"ypos"	 "2"
+		"zpos"	 "-100"
+		"wide"	 "360"
+		"tall"	 "120"
 
-		"MaxDeathNotices" "5"
+		"MaxDeathNotices" "6"
 		"IconScale"	  "0.25"
 		"LineHeight"	  "16"
-		"LineSpacing"	  "4"
-		"CornerRadius"	  "3"
+		"LineSpacing"	  "2"
+		"CornerRadius"	  "2"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
 		"TextFont"		"ModMedium12"
@@ -27,7 +28,7 @@
 		"LocalPlayerColor"	"OffWhite"
 
 		"BaseBackgroundColor"	"0 0 0 0"
-		"LocalBackgroundColor"	"0 0 0 0"
+		"LocalBackgroundColor"	"OffBlackTp"
 		"KillStreakBackgroundColor" "0 0 0 0"
 	}
 }

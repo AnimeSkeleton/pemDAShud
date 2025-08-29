@@ -15,9 +15,12 @@
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
 		
-		"item_xpos_offcenter_a"	"-310"
-		"item_xpos_offcenter_b"	"165"
+		//Column Position
+		"item_xpos_offcenter_a"	"100"
+		"item_xpos_offcenter_b"	"200"
+		//Starting Y
 		"item_ypos"		"60"
+		// Change in Y per row
 		"item_ydelta"	"75"
 		"item_mod_wide"	"40"
 		
@@ -35,11 +38,11 @@
 			"ControlName"	"CItemModelPanel"
 			"xpos"			"c-70"
 			"ypos"			"270"
-			"wide"			"140"
+			"wide"			"100"
 			"tall"			"70"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"OffWhite"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
@@ -47,7 +50,7 @@
 			"model_ypos"		"5"			
 			"model_tall"		"55"
 			"model_wide"		"82"
-			"text_ypos"			"54"
+			"text_ypos"			"0"
 			"text_center"		"1"
 			"name_only"			"1"
 			
@@ -91,19 +94,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		">>"
-		"textAlignment"	"west"
-		"xpos"			"c-300"
-		"ypos"			"20"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"15"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	"ClassLabel"
 	{
@@ -163,16 +159,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TopLine"
-		"xpos"			"c-305"
-		"ypos"			"40"
-		"zpos"			"2"
-		"wide"			"610"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"loadout_dotted_line"
-		"tileImage"		"1"
-		"tileVertically" "0"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}				
 	
 	"classmodelpanel"
