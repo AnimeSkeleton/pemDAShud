@@ -7,7 +7,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"H*-Mod Mix Med"
+				"name"		"H*-Mod Mix Gothic"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -18,7 +18,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"H*-Mod Mix Med"
+				"name"		"H*-Mod Mix Gothic"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -29,7 +29,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"H*-Mod Mix Med"
+				"name"		"H*-Mod Mix Gothic"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -40,7 +40,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"H*-Mod Mix Med"
+				"name"		"H*-Mod Mix Gothic"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"

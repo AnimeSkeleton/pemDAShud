@@ -159,7 +159,7 @@
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"75"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 
