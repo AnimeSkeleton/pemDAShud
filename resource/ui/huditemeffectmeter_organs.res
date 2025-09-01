@@ -7,63 +7,41 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"x_offset"		"40"
-		"xpos"			"r174"	[$WIN32]
-		"ypos"			"r57"	[$WIN32]
-		"xpos_minbad"	"r52"	[$WIN32]
-		"ypos_minbad"	"r68"	[$WIN32]
-		"x_offset_minbad"		"0"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r124"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"xpos"			"r128"
+		"xpos_minbad"	"r128"
+		"ypos"			"r35"
+		"ypos_minbad"	"r35"
+		"wide"			"90"
+		"tall"			"25"
 	}
 	
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"100"
-		"tall"			"50"
-		"visible"		"1"
-		"visible_minbad"	"0"
-		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_horiz2_blue"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"replay/thumbnails/null"
+		"teambg_2"		"replay/thumbnails/null"
+		"teambg_3"		"replay/thumbnails/null"					
 	}
 	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"40"
-		"xpos_minbad"			"15"
-		"ypos"					"27"
-		"ypos_minbad"			"0"
+		"xpos"					"30"
+		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"41"
-		"tall"					"15"
-		"autoResize"			"1"
-		"pinCorner"				"2"
+		"wide"					"60"
+		"tall"					"20"
 		"visible"				"1"
-		"visible_minbad"		"1"
-		"textAlignment_minbad"			"west"
 		"enabled"				"1"
-		"tabPosition"			"0"
-		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"TFFontSmall"
-	}
+		"labelText"				"#TF_Ball"
+		"textAlignment"			"west"
+		"font"					"ModGothic16"
+        "fgcolor"				"OffWhite"
+	}	
 
 	"ItemEffectMeter"
 	{	
@@ -91,20 +69,20 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"40"
-		"xpos_minbad"			"12"
-		"ypos"					"10"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"40"
+		"wide"					"30"
 		"tall"					"20"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
-	}	
+		"font"					"ModGothic24"
+		"fgcolor_override"		"XPYellow"
+	}
 }

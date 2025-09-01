@@ -19,12 +19,28 @@
 		"fieldName"		"ClassBlur"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-2"
+		"zpos"			"-99"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/blur/blur_center"
+		"image"			"replay/thumbnails/blur"
+		"scaleImage"	"1"
+	}
+	"ColorBlur"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ColorBlur"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"		
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/blur_neutral"
+        "teambg_2"      "replay/thumbnails/blur_red"
+        "teambg_3"      "replay/thumbnails/blur_blue"
 		"scaleImage"	"1"
 	}
 	"ClassBG"
@@ -34,11 +50,27 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"320"
+		"wide"			"280"
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"OffBlackTp"
+	}
+	"TeamLogo"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamLogo"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"		
+		"wide"			"100"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/icons/team_ussr"
+        "teambg_2"      "replay/thumbnails/icons/team_ussr"
+        "teambg_3"      "replay/thumbnails/icons/team_usmc"
+		"scaleImage"	"1"
 	}
 	"ChooseClass"
 	{
@@ -46,8 +78,8 @@
 		"fieldName"		"ChooseClass"
 		"xpos"			"0"
 		"ypos"			"40"
-		"zpos"			"2"
-		"wide"			"315"
+		"zpos"			"1"
+		"wide"			"278"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
@@ -57,23 +89,23 @@
 		"fgcolor"		"OffWhite"
 	}
 
-//OFFENSE CLASSES
+	//OFFENSE CLASSES
 	"scout"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"scout"
-		"xpos"				"200"
-		"ypos"				"75"
+		"xpos"				"160"
+		"ypos"				"63"
 		"zpos"				"6"
 		"wide"				"120"
-		"tall"				"25"
+		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"Scout"
 		"textAlignment"		"east"
 		"Command"			"select 1"
 		"Default"			"0"
-		"font"				"ModMedium24"
+		"font"				"ModMedium20"
 		
 		"fgcolor"					"OffWhite"
 		"defaultFgColor_override" 	"OffWhite"
@@ -91,7 +123,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 		
@@ -107,18 +138,18 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"soldier"
-		"xpos"				"200"
-		"ypos"				"100"
+		"xpos"				"160"
+		"ypos"				"83"
 		"zpos"				"6"
 		"wide"				"120"
-		"tall"				"25"
+		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"Soldier"
 		"textAlignment"		"east"
 		"Command"			"select 3"
 		"Default"			"0"
-		"font"				"ModMedium24"
+		"font"				"ModMedium20"
 		
 		"fgcolor"					"OffWhite"
 		"defaultFgColor_override" 	"OffWhite"
@@ -136,7 +167,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 		
@@ -152,18 +182,18 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"pyro"
-		"xpos"				"200"
-		"ypos"				"125"
+		"xpos"				"160"
+		"ypos"				"103"
 		"zpos"				"6"
 		"wide"				"120"
-		"tall"				"25"
+		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"Pyro"
 		"textAlignment"		"east"
 		"Command"			"select 7"
 		"Default"			"0"
-		"font"				"ModMedium24"
+		"font"				"ModMedium20"
 		
 		"fgcolor"					"OffWhite"
 		"defaultFgColor_override" 	"OffWhite"
@@ -181,7 +211,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 		
@@ -197,11 +226,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"OffenseSep"
-		"xpos"			"160"
-		"ypos"			"145"
+		"xpos"			"20"
+		"ypos"			"114"
 		"zpos"			"2"
-		"wide"			"160"
-		"tall"			"10"
+		"wide"			"260"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -214,18 +243,18 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"demoman"
-		"xpos"				"200"
-		"ypos"				"150"
+		"xpos"				"160"
+		"ypos"				"123"
 		"zpos"				"6"
 		"wide"				"120"
-		"tall"				"25"
+		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"Demoman"
 		"textAlignment"		"east"
 		"Command"			"select 4"
 		"Default"			"0"
-		"font"				"ModMedium24"
+		"font"				"ModMedium20"
 		
 		"fgcolor"					"OffWhite"
 		"defaultFgColor_override" 	"OffWhite"
@@ -243,7 +272,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 		
@@ -259,18 +287,18 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"heavyweapons"
-		"xpos"				"200"
-		"ypos"				"175"
+		"xpos"				"160"
+		"ypos"				"143"
 		"zpos"				"6"
 		"wide"				"120"
-		"tall"				"25"
+		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"Heavy"
 		"textAlignment"		"east"
 		"Command"			"select 6"
 		"Default"			"0"
-		"font"				"ModMedium24"
+		"font"				"ModMedium20"
 		
 		"fgcolor"					"OffWhite"
 		"defaultFgColor_override" 	"OffWhite"
@@ -288,7 +316,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 		
@@ -304,18 +331,18 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"engineer"
-		"xpos"				"200"
-		"ypos"				"200"
+		"xpos"				"160"
+		"ypos"				"163"
 		"zpos"				"6"
 		"wide"				"120"
-		"tall"				"25"
+		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"Engineer"
 		"textAlignment"		"east"
 		"Command"			"select 9"
 		"Default"			"0"
-		"font"				"ModMedium24"
+		"font"				"ModMedium20"
 		
 		"fgcolor"					"OffWhite"
 		"defaultFgColor_override" 	"OffWhite"
@@ -333,7 +360,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 		
@@ -345,16 +371,15 @@
 			"enabled"		"0"
 		}				
 	}
-
 	"DefenseSep"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"DefenseSep"
-		"xpos"			"160"
-		"ypos"			"220"
+		"xpos"			"20"
+		"ypos"			"174"
 		"zpos"			"2"
-		"wide"			"160"
-		"tall"			"10"
+		"wide"			"260"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -367,18 +392,18 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"medic"
-		"xpos"				"200"
-		"ypos"				"225"
+		"xpos"				"160"
+		"ypos"				"183"
 		"zpos"				"6"
 		"wide"				"120"
-		"tall"				"25"
+		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"Medic"
 		"textAlignment"		"east"
 		"Command"			"select 5"
 		"Default"			"0"
-		"font"				"ModMedium24"
+		"font"				"ModMedium20"
 		
 		"fgcolor"					"OffWhite"
 		"defaultFgColor_override" 	"OffWhite"
@@ -396,7 +421,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 		
@@ -412,18 +436,18 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"sniper"
-		"xpos"				"200"
-		"ypos"				"250"
+		"xpos"				"160"
+		"ypos"				"203"
 		"zpos"				"6"
 		"wide"				"120"
-		"tall"				"25"
+		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"Sniper"
 		"textAlignment"		"east"
 		"Command"			"select 2"
 		"Default"			"0"
-		"font"				"ModMedium24"
+		"font"				"ModMedium20"
 		
 		"fgcolor"					"OffWhite"
 		"defaultFgColor_override" 	"OffWhite"
@@ -441,7 +465,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 		
@@ -457,18 +480,18 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"spy"
-		"xpos"				"200"
-		"ypos"				"275"
+		"xpos"				"160"
+		"ypos"				"223"
 		"zpos"				"6"
 		"wide"				"120"
-		"tall"				"25"
+		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
 		"labelText"			"Spy"
 		"textAlignment"		"east"
 		"Command"			"select 8"
 		"Default"			"0"
-		"font"				"ModMedium24"
+		"font"				"ModMedium20"
 		
 		"fgcolor"					"OffWhite"
 		"defaultFgColor_override" 	"OffWhite"
@@ -486,7 +509,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 		
@@ -504,11 +526,11 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"random"
-		"xpos"				"200"
-		"ypos"				"325"
+		"xpos"				"160"
+		"ypos"				"403"
 		"zpos"				"6"
 		"wide"				"120"
-		"tall"				"25"
+		"tall"				"20"
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
@@ -516,7 +538,7 @@
 		"textAlignment"		"east"
 		"Command"			"select 12"
 		"Default"			"1"
-		"font"				"ModMedium24"
+		"font"				"ModMedium20"
 		
 		"fgcolor"					"OffWhite"
 		"defaultFgColor_override" 	"OffWhite"
@@ -533,7 +555,6 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"stayselectedonclick"	"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 		
@@ -550,17 +571,17 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"200"
-		"ypos"			"425"
+		"xpos"			"160"
+		"ypos"			"423"
 		"zpos"			"6"
 		"wide"			"120"
-		"tall"			"25"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"Back "
 		"textAlignment"	"east"
 		"Command"		"vguicancel"
-		"font"			"ModMedium24"
+		"font"			"ModMedium20"
 
 		"fgcolor"					"OffWhite"
 		"defaultFgColor_override" 	"OffWhite"
@@ -578,50 +599,54 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	
-	"EditLoadoutButton" [$WIN32] 
+	"EditLoadoutButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
-		"xpos"			"r180"
-		"ypos"			"r38"
+		"xpos"			"r336"
+		"ypos"			"r56"
 		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"2"
+		"wide"			"350"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#EditLoadout"
-		"textAlignment"	"center"
+		"labelText"		"Edit Loadout"
+		"textAlignment"	"west"
 		"Command"		"openloadout"
-		"font"			"HudFontSmallBold"
+		"font"			"ModGothic24"
+
+		"fgcolor"					"OffWhite"
+		"defaultFgColor_override" 	"OffWhite"
+		"armedFgColor_override" 	"OffWhiteDark"
+		"depressedFgColor_override" "OffWhiteDark"
+		"selectedFgColor_override" 	"OffWhiteDark"
+
+		"bgcolor"					"OffBlackTp"
+		"defaultBgColor_override" 	"OffBlackTp"
+		"armedBgColor_override" 	"OffBlackTp"
+		"depressedBgColor_override" "OffBlackTp"
+		"selectedBgColor_override" 	"OffBlackTp"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
-	"ResetButton" [$WIN32] 
+	"ResetButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ResetButton"
-		"xpos"			"r470"
-		"ypos"			"r38"
-		"zpos"			"6"
-		"wide"			"110"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"2"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_ClassMenu_Reset"
-		"textAlignment"	"center"
-		"Command"		"resetclass"
-		"font"			"HudFontSmallBold"
+		"enabled"		"0"
 	}
 
 	"ClassMenuSelect"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassMenuSelect"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}
@@ -630,12 +655,13 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"Hint"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}
 
-	
-	"localPlayerImage" [$WIN32]
+	"localPlayerImage"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerImage"
@@ -765,23 +791,36 @@
 		"enabled"		"0"
 	}
 	
-	"CountLabel" [$WIN32]
+	"CountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountLabel"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}
+	"ClassInfo"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ClassInfo"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
+	
 	
 	"numScout" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
-		"xpos"			"320"
-		"ypos"			"75"
+		"xpos"			"280"
+		"ypos"			"63"
 		"zpos"			"5"
 		"wide"			"20"
-		"tall"			"25"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%numScout%"
@@ -794,11 +833,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
-		"xpos"			"320"
-		"ypos"			"100"
+		"xpos"			"280"
+		"ypos"			"83"
 		"zpos"			"5"
 		"wide"			"20"
-		"tall"			"25"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
@@ -812,11 +851,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
-		"xpos"			"320"
-		"ypos"			"125"
+		"xpos"			"280"
+		"ypos"			"103"
 		"zpos"			"5"
 		"wide"			"20"
-		"tall"			"25"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
@@ -830,11 +869,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
-		"xpos"			"320"
-		"ypos"			"150"
+		"xpos"			"280"
+		"ypos"			"123"
 		"zpos"			"5"
 		"wide"			"20"
-		"tall"			"25"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
@@ -848,11 +887,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
-		"xpos"			"320"
-		"ypos"			"175"
+		"xpos"			"280"
+		"ypos"			"143"
 		"zpos"			"5"
 		"wide"			"20"
-		"tall"			"25"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
@@ -866,11 +905,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
-		"xpos"			"320"
-		"ypos"			"200"
+		"xpos"			"280"
+		"ypos"			"163"
 		"zpos"			"5"
 		"wide"			"20"
-		"tall"			"25"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
@@ -884,11 +923,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
-		"xpos"			"320"
-		"ypos"			"225"
+		"xpos"			"280"
+		"ypos"			"183"
 		"zpos"			"5"
 		"wide"			"20"
-		"tall"			"25"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
@@ -902,11 +941,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
-		"xpos"			"320"
-		"ypos"			"250"
+		"xpos"			"280"
+		"ypos"			"203"
 		"zpos"			"5"
 		"wide"			"20"
-		"tall"			"25"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
@@ -920,11 +959,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"
-		"xpos"			"320"
-		"ypos"			"275"
+		"xpos"			"280"
+		"ypos"			"223"
 		"zpos"			"5"
 		"wide"			"20"
-		"tall"			"25"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
@@ -1080,8 +1119,6 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -1231,5 +1268,5 @@
 				"scaleImage"	"1"
 			}				
 		}
-	}		
+	}
 }

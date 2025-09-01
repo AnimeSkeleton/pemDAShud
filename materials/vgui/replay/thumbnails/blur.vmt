@@ -1,0 +1,10 @@
+Refract
+{
+	$refract 1
+	$normalmap "vgui/replay/thumbnails/blur"
+	$bluramount 10
+
+	$refractblur 1.0
+
+	$scale "[1 1]"
+}

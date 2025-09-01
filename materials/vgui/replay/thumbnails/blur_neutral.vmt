@@ -1,0 +1,11 @@
+UnlitGeneric
+{
+	$basetexture "vgui/replay/thumbnails/blur_neutral"
+
+	$translucent 1
+
+	$basetexturetransform "center 0.5 0.5 scale 0 1 rotate 0 translate 0 0"
+
+	$vertexcolor 1
+	$vertexalpha 1
+}

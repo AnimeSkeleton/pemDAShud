@@ -1,16 +1,17 @@
-"Refract"
+Refract
 {
-	"%keywords" "tf"
-	"$refractamount" "0.0"
-	"$refracttint" "{255 255 255}"
-	"$refractblur" "1"
-	"$bluramount" "2"
+	$refract 1
+	$normalmap "vgui/replay/thumbnails/blur/blur_center"
+	$bluramount 2
 
-	"$scale" "[1 1]"
-	"$normalmap" "vgui/replay/thumbnails/blur/blur_center"
-	
+	$refractblur 1
+
+	%keywords "tf"
+
+	$scale "[1 1]"
+
 	<dx90
 	{
-		 	"$fallbackmaterial" "vgui/replay/thumbnails/fallback"
+		$fallbackmaterial "vgui/replay/thumbnails/fallback"
 	}
 }

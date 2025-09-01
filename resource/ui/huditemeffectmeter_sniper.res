@@ -9,8 +9,8 @@
 		"enabled"		"1"
 		"xpos"			"r180"
 		"xpos_minbad"	"r180"
-		"ypos"			"r45"
-		"ypos_minbad"	"r45"
+		"ypos"			"r35"
+		"ypos_minbad"	"r35"
 		"wide"			"80"
 		"tall"			"25"
 	}

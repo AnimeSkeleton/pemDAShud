@@ -32,7 +32,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyGood"
 		"font"			"ModGothic24"
-		"fgcolor"		"TitleOrange"
+		"fgcolor"		"ScoreOrange"
 		"xpos"			"1"
 		"ypos"			"20"
 		"zpos"			"3"

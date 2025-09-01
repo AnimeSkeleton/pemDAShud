@@ -28,7 +28,7 @@
 		"LocalPlayerColor"	"OffWhite"
 
 		"BaseBackgroundColor"	"0 0 0 0"
-		"LocalBackgroundColor"	"OffBlackTp"
+		"LocalBackgroundColor"	"OffWhiteTp"
 		"KillStreakBackgroundColor" "0 0 0 0"
 	}
 }

@@ -132,6 +132,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"ModMedium20"
+		{
+			"1"
+			{
+				"name"  "H*-Mod Mix Med"
+				"tall"  "20"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}
 		"ModMedium16"
 		{
 			"1"

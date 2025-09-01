@@ -8,7 +8,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r120"
-		"ypos"			"r45"
+		"ypos"			"r35"
 		"wide"			"20"
 		"tall"			"45"
 	}

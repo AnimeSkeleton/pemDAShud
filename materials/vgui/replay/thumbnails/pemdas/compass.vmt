@@ -1,0 +1,39 @@
+UnlitGeneric
+{
+	$basetexture "vgui/replay/thumbnails/pemdas/compass_spd"
+
+	$translucent 1
+
+	$vertexcolor 1
+	$vertexalpha 1
+
+	$angle 0.0
+	$center "[0.5 0.5]"
+	$clampangle 0.0
+	$translate "[0.0 0.0]"
+
+	Proxies
+	{
+		PlayerSpeed
+		{
+			scale 0.36
+			resultVar "$clampangle"
+		}
+
+		Clamp
+		{
+			min 0
+			max 315
+			srcVar1 "$clampangle"
+			resultVar "$angle"
+		}
+
+		TextureTransform
+		{
+			translateVar "$translate"
+			rotateVar "$angle"
+			centerVar "$center"
+			resultVar "$basetexturetransform"
+		}
+	}
+}

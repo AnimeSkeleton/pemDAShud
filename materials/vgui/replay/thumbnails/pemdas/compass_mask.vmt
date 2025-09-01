@@ -1,0 +1,16 @@
+Refract
+{
+	$refract 1
+	$normalmap "vgui/replay/thumbnails/pemdas/compass_mask"
+
+	$refractblur 1.0
+
+	%keywords "tf"
+
+	$scale "[1 1]"
+
+	<dx90
+	{
+		$fallbackmaterial "vgui/replay/thumbnails/fallback"
+	}
+}

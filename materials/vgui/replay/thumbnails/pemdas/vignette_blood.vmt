@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+	$basetexture "vgui/replay/thumbnails/pemdas/vignette_blood"
+
+	$vertexcolor 1
+	$vertexalpha 1
+}

@@ -120,10 +120,10 @@ event DefaultAnimCompetitiveGame_RestoreChatWindow
 {
 	Animate HudChat ypos r240 Accel 0 0
 
-	RunEvent HudHealthDyingPulseStop
-	RunEvent HudHealthBonusPulseStop
+	RunEvent HudHealthDyingPulseStop 0
+	RunEvent HudHealthBonusPulseStop 0
 	
-	RunEvent HudLowAmmoPulseStop
+	RunEvent HudLowAmmoPulseStop 0
 }
 
 //CHAT WINDOW

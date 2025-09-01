@@ -67,7 +67,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"165"
+		"xpos"			"180"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"80"
@@ -94,7 +94,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"25"
+			"xpos"			"31"
 			"ypos"			"4"
 			"zpos"			"2"
 			"wide"			"30"
@@ -110,7 +110,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"26"
+			"xpos"			"32"
 			"ypos"			"5"
 			"zpos"			"2"
 			"wide"			"30"
@@ -128,7 +128,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NoPipesPresentPanel"
-		"xpos"			"165"
+		"xpos"			"180"
 		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"80"
@@ -148,7 +148,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"25"
+			"xpos"			"31"
 			"ypos"			"4"
 			"zpos"			"2"
 			"wide"			"30"
@@ -164,7 +164,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"26"
+			"xpos"			"32"
 			"ypos"			"5"
 			"zpos"			"2"
 			"wide"			"30"
