@@ -24,14 +24,15 @@
 	{
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"100"
-		"xpos_minbad"			"80"
 		"ypos"					"r110"
-		"ypos_minbad"			"r120"
 		"wide"					"80"
 		"tall"  				"60"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
+
+		"xpos_minmode"	"c-120"
+		"ypos_minmode"	"c30"
 	}
 
     //TARGET ID
@@ -69,9 +70,7 @@
 		"ypos"		"250"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minbad"	 	"28"
 		"priority"	"40"
-		"priority_lodef" "35"
 		
 		"x_offset" "20"
 		"y_offset" "20"
@@ -83,9 +82,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r162"
-		"xpos_minbad"	"r52"
 		"ypos"			"r52"
-		"ypos_minbad"	"r50"
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -129,11 +126,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r340"
-		"xpos_minbad"	"r340"
 		"ypos"			"r35"
-		"ypos_minbad"	"r35"
 		"wide"			"340"
 		"tall"			"45"
+
+		"xpos_minmode"	"c-235"
+		"ypos_minmode"	"c100"
 	}
     HudDemomanCharge
 	{
@@ -141,25 +139,30 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"0"
-		"ypos"			"r2"
-		"zpos"			"-10"
+		"ypos"			"r1"
+		"zpos"			"10"
 		"wide"			"f0"
 		"tall"			"2"
+
+		"xpos_minmode"	"cs-0.5"
+		"ypos_minmode"	"c100"
+		"wide_minmode"	"60"
+		"tall_minmode"	"3"
 	}
 
 	//ENGINEER
-
 	CHudAccountPanel
 	{
 		"fieldName"		"CHudAccountPanel"
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r144"
-		"xpos_minbad"	"3"
 		"ypos"			"r35"
-		"ypos_minbad"	"3"
 		"wide"			"60"
 		"tall"			"45"
+
+		"xpos_minmode"	"cs-0.5"
+		"ypos_minmode"	"c99"
 	}
 
 	BuildingStatus_Engineer
@@ -222,6 +225,9 @@
 		"ypos_minbad"	"r70"
 		"wide"			"320"
 		"tall"			"60"
+
+		"xpos_minmode"	"c-20"
+		"ypos_minmode"	"c60"
 	}
 
     //SNIPER
@@ -231,10 +237,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"0"
-		"ypos"			"r2"
-		"zpos"			"-10"
+		"ypos"			"r1"
+		"zpos"			"10"
 		"wide"			"f0"
 		"tall"			"2"
+
+		"xpos_minmode"	"cs-0.5"
+		"ypos_minmode"	"c100"
+		"wide_minmode"	"60"
+		"tall_minmode"	"3"
 	}
 
 	//MANN VS MACHINE

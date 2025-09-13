@@ -1,0 +1,27 @@
+//SPY DISGUISE
+event HudSpyDisguiseChanged
+{
+	Animate PlayerStatusSpyOutlineImage		Alpha		"100"			Spline 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Position	"c-200 c-200"	Spline 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"400 400"		Spline 0.0 0.2
+
+	RunEvent HudSpyDisguiseHide	0.7
+}
+event HudSpyDisguiseHide
+{
+	Animate PlayerStatusSpyOutlineImage		Position	"3 413"			Spline 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"55 55"			Spline 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Spline 0.2 0.1
+}
+event HudSpyDisguiseFadeIn
+{
+	RunEvent HudSpyDisguiseChanged	0
+	Animate PlayerStatusSpyImage			Alpha		"100"			Spline 0.9 0.1	
+}
+event HudSpyDisguiseFadeOut
+{
+	RunEvent HudSpyDisguiseChanged	0
+	Animate PlayerStatusSpyImage			Alpha		"0"				Spline 0.9 0.1	
+}

@@ -789,28 +789,7 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-	}
-	
-	"CountLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CountLabel"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}
-	"ClassInfo"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ClassInfo"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}
-
-	
+	}	
 	
 	"numScout" [$WIN32]
 	{

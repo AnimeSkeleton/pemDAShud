@@ -1,5 +1,3 @@
-#base "base/huditemeffectmeter_halloweensouls.res"
-
 "Resource/UI/HudItemEffectMeter_HalloweenSouls.res"
 {
 	HudItemEffectMeter
@@ -34,9 +32,7 @@
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"		
+		"teambg_3"		"../hud/misc_ammo_area_blue"	
 		"proportionalToParent"	"1"		
 	}
 	
@@ -67,23 +63,11 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"25"
-		"ypos"					"r23"
-		"ypos_minbad"			"0"
-		"xpos_minbad"			"0"
-		"zpos"					"2"
-		"wide"					"40"
-		"wide_minbad"			"50"
-		"tall"					"6"				
-		"autoResize"			"0"
-		"pinCorner"				"0"
+		"wide"					"0"
+		"tall"					"0"
 		"visible"				"0"
 		"enabled"				"0"
-		"textAlignment"			"Left"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"proportionalToParent"	"1"	
-	}					
+	}				
 	
 	"ItemEffectMeterCount"
 	{

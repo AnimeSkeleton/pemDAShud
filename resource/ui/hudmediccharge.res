@@ -25,9 +25,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
 		"xpos"			"130"
-		"xpos_minbad"	"130"
 		"ypos"			"10"
-		"ypos_minbad"	"10"
 		"zpos"			"2"
 		"wide"			"80"
 		"tall"			"15"
@@ -37,6 +35,9 @@
 		"textAlignment"	"east"
 		"font"			"ModGothic32"
         "fgcolor"       "OffWhite"
+
+		"xpos_minmode"	"98"
+		"ypos_minmode"	"11"
 	}
     
     "ChargeMeter"
@@ -45,9 +46,7 @@
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
 		"xpos"			"51"
-		"xpos_minbad"	"51"
 		"ypos"			"27"
-		"ypos_minbad"	"27"
 		"zpos"			"2"
 		"wide"			"159"
 		"tall"			"6"
@@ -56,6 +55,8 @@
 		"textAlignment"	"Left"
 		"fgcolor_override" "OffWhite"
         "bgcolor_override" "OffBlackTp"
+
+		"wide_minmode"	"130"
 	}
 
     //VACCINATOR
@@ -65,9 +66,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
 		"xpos"			"131"
-		"xpos_minbad"	"131"
 		"ypos"			"10"
-		"ypos_minbad"	"10"
 		"zpos"			"2"
 		"wide"			"80"
 		"tall"			"15"
@@ -77,6 +76,9 @@
 		"textAlignment"	"east"
 		"font"			"ModGothic32"
         "fgcolor"       "OffWhite"
+
+		"xpos_minmode"	"75"
+		"ypos_minmode"	"11"
 	}
 
     "ChargeMeter1"
@@ -152,7 +154,6 @@
 		"wide"			"40"
 		"tall"			"36"
 		"visible"		"1"
-		"visible_minbad"		"0"
 		"enabled"		"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"scaleImage"	"1"	

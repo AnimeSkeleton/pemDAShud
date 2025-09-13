@@ -1,0 +1,12 @@
+//DEAD PLAYER TOP TIMER
+event TeamStatus_PlayerDead
+{
+	SetVisible respawntime  1 0
+	Animate respawntime ypos 15 Accel 0 0.2
+}
+
+event TeamStatus_PlayerAlive
+{
+	Animate respawntime ypos 0 Accel 0 0.2
+	SetVisible respawntime 0 0.2
+}

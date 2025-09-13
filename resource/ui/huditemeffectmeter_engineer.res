@@ -1,5 +1,3 @@
-#base "base/huditemeffectmeter_engineer.res"
-
 "Resource/UI/HudItemEffectMeter_Engineer.res"
 {
 	HudItemEffectMeter
@@ -7,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r220"
-		"xpos_minbad"	"r220"
+		"xpos"			"r230"
+		"xpos_minbad"	"r230"
 		"ypos"			"r35"
 		"ypos_minbad"	"r35"
 		"wide"			"90"
@@ -43,6 +41,17 @@
         "fgcolor"				"OffWhite"
 	}		
 	
+	"ItemEffectMeter"
+	{	
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ItemEffectMeter"
+		"font"					"Default"
+		"wide"					"0"
+		"tall"					"0"
+		"visible"				"0"
+		"enabled"				"0"
+	}			
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"

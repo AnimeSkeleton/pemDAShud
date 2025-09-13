@@ -1,0 +1,46 @@
+//BONUS HEALTH PULSE
+event HudHealthBonusPulse
+{
+
+	Animate	PlayerStatusHealthValue fgcolor "115 220 220 255" Linear 0.0 0.0
+
+	Animate	PlayerHealthBonusImage 	Alpha		"255"		Spline 0.0 0.5
+	Animate	PlayerHealthBonusImage 	Alpha		"100"		Spline 0.5 0.5
+
+	RunEvent HudHealthBonusPulseLoop	1.0
+}
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse 0.0
+}
+event HudHealthBonusPulseStop
+{
+	Animate	PlayerStatusHealthValue fgcolor "235 235 235 255" Linear 0.0 0.0
+	Animate	PlayerHealthBonusImage 	Alpha		"0"		Spline 0.0 1.0
+
+	StopEvent HudHealthBonusPulse 0.0
+	StopEvent HudHealthBonusPulseLoop 0.0
+}
+
+//LOW HEALTH PULSE
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthValue fgcolor "225 90 115 255" Linear 0.0 0.0
+
+	Animate	PlayerHealthDyingImage 	Alpha		"255"		Spline 0.0 0.5
+	Animate	PlayerHealthDyingImage 	Alpha		"100"		Spline 0.5 0.5
+	
+	RunEvent HudHealthDyingPulseLoop	1.0
+}
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthDyingPulse 0.0
+}
+event HudHealthDyingPulseStop
+{
+	Animate	PlayerStatusHealthValue fgcolor "235 235 235 255" Linear 0.0 0.0
+	Animate	PlayerHealthDyingImage 	Alpha		"0"		Spline 0.0 1.0
+
+	StopEvent HudHealthDyingPulse 0.0
+	StopEvent HudHealthDyingPulseLoop 0.0
+}

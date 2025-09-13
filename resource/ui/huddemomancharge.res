@@ -17,5 +17,8 @@
 		"textAlignment"	"Left"
         "fgcolor_override" "OffWhite"
         "bgcolor_override" "0 0 0 0"
+
+		"wide_minmode"	"60"
+		"tall_minmode"	"3"
 	}					
 }

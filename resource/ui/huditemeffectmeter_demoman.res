@@ -1,5 +1,3 @@
-#base "base/huditemeffectmeter_demoman.res"
-
 "Resource/UI/HudItemEffectMeter_Demoman.res"
 {
 	HudItemEffectMeter
@@ -41,6 +39,17 @@
 		"textAlignment"			"west"
 		"font"					"ModGothic16"
         "fgcolor"				"OffWhite"
+	}
+
+	"ItemEffectMeter"
+	{	
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ItemEffectMeter"
+		"font"					"Default"
+		"wide"					"0"
+		"tall"					"0"
+		"visible"				"0"
+		"enabled"				"0"
 	}	
 
 	"ItemEffectMeterCount"

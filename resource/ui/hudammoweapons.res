@@ -31,9 +31,11 @@
 		"tall"			"32"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"east"
 		"labelText"		"%Ammo%"
-		
+
+		"xpos_minmode"	"c-8"
+		"ypos_minmode"	"c60"
 	}		
 	"AmmoInClipShadow"
 	{
@@ -50,6 +52,9 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%Ammo%"
+
+		"xpos_minmode"	"c-7"
+		"ypos_minmode"	"c61"
 	}						
 	"AmmoInReserve"
 	{
@@ -67,6 +72,9 @@
 		"enabled"		"1"
 		"textAlignment"	"east"		
 		"labelText"		"%AmmoInReserve%"
+
+		"xpos_minmode"	"c65"
+		"ypos_minmode"	"c67"
 	}		
 	"AmmoInReserveShadow"
 	{
@@ -84,6 +92,9 @@
 		"enabled"		"1"
 		"textAlignment"	"east"		
 		"labelText"		"%AmmoInReserve%"
+
+		"xpos_minmode"	"c66"
+		"ypos_minmode"	"c68"
 	}									
 	"AmmoNoClip"
 	{
@@ -101,6 +112,8 @@
 		"textAlignment"	"east"		
 		"labelText"		"%Ammo%"
 		
+		"xpos_minmode"	"c0"
+		"ypos_minmode"	"c60"
 	}	
 	"AmmoNoClipShadow"
 	{
@@ -117,6 +130,9 @@
 		"enabled"		"1"
 		"textAlignment"	"east"		
 		"labelText"		"%Ammo%"
+
+		"xpos_minmode"	"c1"
+		"ypos_minmode"	"c61"
 	}
 
 	"LowAmmoInd"

@@ -1,0 +1,10 @@
+//FIX STOPPED ANIMATIONS
+event CompetitiveGame_RestoreChatWindow
+{
+	Animate HudChat ypos r240 Accel 0 0.02
+
+	RunEvent HudHealthDyingPulseStop 0.02
+	RunEvent HudHealthBonusPulseStop 0.02
+	
+	RunEvent HudLowAmmoPulseStop 0.02
+}

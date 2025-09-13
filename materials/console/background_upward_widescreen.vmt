@@ -1,30 +1,33 @@
-"UnlitGeneric"
+UnlitGeneric
 {
-	"$baseTexture" "console/background_upward_widescreen"
-	"$vertexcolor" 1
-	"$vertexalpha" 1
-	"$ignorez" 1
-	"$no_fullbright" "1"
-	"$nolod" "1"
-	"%keywords" "tf"
+	$basetexture "console/background_upward"
 
-	"$translate"	"[0 0]"
-	"$scale"		"[0.85 0.85]"
+	$vertexcolor 1
+	$vertexalpha 1
+	$ignorez 1
+	$nolod 1
+	$no_fullbright 1
 
-	"Proxies"
+	%keywords "tf"
+
+	$scale "[0.85 0.85]"
+	$translate "[0 0]"
+
+	Proxies
 	{
-		"Sine"
+		Sine
 		{
-			"resultVar"         "$translate[0]"
-			"sineperiod"        "90"
-			"sinemin"           "-0.05"
-			"sinemax"           "0.05"
+			resultVar "$translate[0]"
+			sineperiod 90
+			sinemin -0.05
+			sinemax 0.05
 		}
-		"TextureTransform"
+
+		TextureTransform
 		{
-			"translateVar"	"$translate"
-			"scaleVar"	"$scale"
-			"resultVar"	"$basetexturetransform"
+			translateVar "$translate"
+			scaleVar "$scale"
+			resultVar "$basetexturetransform"
 		}
 	}
 }

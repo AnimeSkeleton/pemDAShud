@@ -64,6 +64,9 @@
 		"textAlignment"	"west"	
 		"font"			"ModGothic48"
 		"fgcolor"		"OffWhite"
+
+		"xpos_minmode"	"c-120"
+		"ypos_minmode"	"c60"
 	}
 	"PlayerStatusHealthValueBG"
 	{
@@ -80,6 +83,9 @@
 		"textAlignment"	"west"	
 		"font"			"ModGothic48"
 		"fgcolor"		"OffBlack"
+
+		"xpos_minmode"	"c-119"
+		"ypos_minmode"	"c61"
 	}
 	"PlayerStatusMaxHealthValue"
 	{

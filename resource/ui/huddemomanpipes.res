@@ -87,7 +87,10 @@
 			"image"			"replay/thumbnails/icons/semtex_red"
 			"scaleImage"	"1"
 			"teambg_2"		"replay/thumbnails/icons/semtex_red"
-			"teambg_3"		"replay/thumbnails/icons/semtex_blu"	
+			"teambg_3"		"replay/thumbnails/icons/semtex_blu"
+
+			"wide_minmode"	"0"
+			"tall_minmode"	"0"
 		}	
 		
 		"NumPipesLabel"

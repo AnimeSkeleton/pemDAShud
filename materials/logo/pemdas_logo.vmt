@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+	$basetexture "logo/pemdas_logo"
+
+	$translucent 1
+
+	$ignorez 1
+}
