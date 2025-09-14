@@ -1,21 +1,5 @@
 "Resource/UI/MatchMakingDashboardSidePanel.res"
 {
-	"Shade"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Shade"
-		"xpos"			"3"
-		"ypos"			"0"
-		"zpos"			"1000"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"0"
-
-		"bgcolor_override"	"0 0 0 255"
-	}
-
 	"CloseButton"
 	{
 		"ControlName"	"CExButton"

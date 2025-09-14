@@ -185,74 +185,53 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
-		"xpos"			"rs1"
-		"ypos"			"20"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"260"
-		"tall"			"f40"
+		"wide"			"256"
+		"tall"			"64"
 		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"proportionaltoparent"	"1"
-
-		if_mini
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"tall"			"35"
-			"wide"			"505"
-		}
 
 		"NameLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"65"
-			"ypos"			"5"
+			"xpos"			"62"
+			"ypos"			"0"
 			"wide"			"f0"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallishBold"
-			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north-west"
+			"font"			"ModGothic24"
+			"fgcolor_override"	"OffWhite"
+			"textAlignment"	"west"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
-
-			if_mini
-			{
-				"visible"	"0"
-			}
 		}
 
 		"DescLine1"
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"65"
-			"ypos"			"19"
+			"xpos"			"62"
+			"ypos"			"16"
 			"wide"			"195"
 			"zpos"			"100"
-			"tall"			"20"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north-west"
+			"font"			"ModMedium16"
+			"fgcolor_override"	"OffWhite"
+			"textAlignment"	"west"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
-			if_mini
-			{
-				"xpos"	"67"
-				"ypos"	"4"
-			}
-
 			"fonts"
 			{
-				"0"		"HudFontSmallestBold"
-				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
+				"0"		"ModMedium16"
+				"1"		"ModMedium16"
+				"2"		"ModMedium16"
 			}
 		}
 
@@ -260,36 +239,30 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"65"
-			"ypos"			"29"
+			"xpos"			"62"
+			"ypos"			"28"
 			"wide"			"195"
 			"zpos"			"100"
-			"tall"			"20"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north-west"
+			"font"			"ModMedium16"
+			"fgcolor_override"	"OffWhite"
+			"textAlignment"	"west"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
 
-			if_mini
-			{
-				"xpos"	"67"
-				"ypos"	"4"
-			}
-
 			"fonts"
 			{
-				"0"		"HudFontSmallestBold"
-				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
+				"0"		"ModMedium16"
+				"1"		"ModMedium16"
+				"2"		"ModMedium16"
 			}
 
 			"colors"
 			{
 				"1"		"CreditsGreen"
-				"2"		"TanLight"
+				"2"		"OffWhite"
 			}
 		}
 
@@ -297,18 +270,11 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"rs1-5"
+			"xpos"			"62"
 			"ypos"			"0"
-			"wide"			"f70"
-			"tall"			"f0"
+			"wide"			"192"
+			"tall"			"64"
 			"proportionaltoparent"	"1"
-
-			if_mini
-			{
-				"xpos"			"rs1-10"
-				"ypos"			"0"
-				"wide"			"p0.85"
-			}
 
 			"XPBar"
 			{
@@ -320,8 +286,6 @@
 				"tall"			"30"
 				"proportionaltoparent"	"1"
 
-	
-
 				"CurrentXPLabel"
 				{
 					"ControlName"	"Label"
@@ -330,31 +294,13 @@
 					"ypos"			"rs1"
 					"zpos"			"0"
 					"wide"			"100"
-					"tall"			"20"
+					"tall"			"8"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"ItemFontAttribSmall"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"south-west"
+					"font"			"ModMedium8"
+					"fgcolor_override"	"OffWhite"
+					"textAlignment"	"west"
 					"labelText"		"%current_xp%"
-					"proportionaltoparent"	"1"
-				}
-
-				"NextLevelXPLabel"
-				{
-					"ControlName"	"Label"
-					"fieldName"		"NextLevelXPLabel"
-					"xpos"			"rs1"
-					"ypos"			"rs1"
-					"zpos"			"0"
-					"wide"			"100"
-					"tall"			"20"
-					"visible"		"1"
-					"enabled"		"1"
-					"font"			"ItemFontAttribSmall"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"south-east"
-					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
 				}
 
@@ -395,7 +341,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"	"CreditsGreen"
+						"fgcolor_override"	"XPYellow"
 					}
 
 					"Frame"

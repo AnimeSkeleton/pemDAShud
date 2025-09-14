@@ -1,92 +1,86 @@
 "GameMenu" [$WIN32]
 {
-	"VersionButton"
+	"VersionButton" //LOGO VERSION BUTTON
 	{
 		"label" ""
 		"command" "engine con_enable 1;toggleconsole;clear;echo pemDAS HUD v0.55;echo by RetroSource;echo  ;echo Check for the latest version at;echo github.com/AnimeSkeleton/pemDAShud"
 		"OnlyAtMenu" "1"
 		"tooltip" ""
 	} 
-    //FIND GAME
-	"FindGameButton"
-	{
-		"label" "SERVER BROWSER"
-		"command" "FindGameButton"
-		"OnlyAtMenu" "1"
-		"tooltip" ""
-	}
-    //CREATE GAME
-	"CreateServerButton"
-	{
-		"label" "PRIVATE MATCH"
-		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
-		"tooltip" ""
-	}
-    "ServerBrowserButton"
+	"ServerBrowserButton" //SERVER BROWSER
 	{
 		"label" "SERVER BROWSER"
 		"command" "OpenServerBrowser"
-		"OnlyInGame" "1"
 		"tooltip" ""
 	}
-    //INVENTORY
-    "CharacterSetupButton"
+	"CreateServerButton" //CREATE SERVER
+	{
+		"label" "PRIVATE MATCH"
+		"command" "OpenCreateMultiplayerGameDialog"
+		"tooltip" ""
+	}
+    //SEPERATOR
+    "CharacterSetupButton" //INVENTORY
 	{
 		"label" "INVENTORY"
 		"command" "engine open_charinfo"
 		"tooltip" ""
 	}
-    //CONTRACTS
-    "QuestLogButton"
+    "QuestLogButton" //CONTRACTS
 	{
 		"label" "CONTRACTS"
 		"command" "questlog"
 		"tooltip" ""
 	}
-    //STORE
-	"GeneralStoreButton"
+	"GeneralStoreButton" //STORE
 	{
 		"label" "ITEM STORE"
 		"command" "engine open_store"
 		"tooltip" ""
 	}
-    //SETTINGS
-    "SettingsButton"
+	//SEPERATOR
+	"AchievementsButton" //ACHIEVEMENTS
+	{
+		"label" "ACHIEVEMENTS"
+		"command" "OpenAchievementsDialog"
+		"tooltip" ""
+	}
+	"WorkshopButton" //WORKSHOP
+	{
+		"label" "STEAM WORKSHOP"
+		"command" "engine OpenSteamWorkshopDialog"
+		"tooltip" ""
+	}
+	"DemoButton" //DEMOUI - REPLACES WORKSHOP INGAME
+	{
+		"label" "DEMO PLAYBACK"
+		"command" "engine demoui"
+		"tooltip" ""
+	}
+    //SEPERATOR
+    "SettingsButton" //SETTINGS
     {
 		"label" "SETTINGS"
 		"command" "OpenOptionsDialog"
 		"tooltip" ""
 	}
-    "TF2SettingsButton"
+    "TF2SettingsButton" //TF2 SETTINGS
     {
 		"label" "ADV. SETTINGS"
 		"command" "opentf2options"
 		"tooltip" ""
 	}
 
-
-	"SteamWorkshopButton"
+	
+	//IN GAME BUTTONS
+	"ConsoleButton" //CONSOLE
 	{
-		"label" "#MMenu_SteamWorkshop"
-		"command" "engine OpenSteamWorkshopDialog"
-		"tooltip" ""
-	}
-	"ConsoleButton"
-	{
-		"label" "Console"
+		"label" "CONSOLE"
 		"command" "engine con_enable 1;toggleconsole"
-		"tooltip" ""
-	} 
-	"DEMOUI"
-	{
-		"label" "DemoUI"
-		"command" "engine demoui"
+		"OnlyInGame"	"1"
 		"tooltip" ""
 	}
-	
-	
-	"CallVoteButton"
+	"CallVoteButton" //CALL VOTE
 	{
 		"label"			""
 		"command"		"callvote"
@@ -94,7 +88,7 @@
 		"subimage" "icon_checkbox"
 		"tooltip" "#MMenu_CallVote"
 	}
-	"MutePlayersButton"
+	"MutePlayersButton" //MUTE PLAYERS
 	{
 		"label"			""
 		"command"		"OpenPlayerListDialog"
@@ -103,6 +97,8 @@
 		"tooltip" "#MMenu_MutePlayers"
 	}
 
+
+	//BOTTOM MENU
     "ResumeGameButton" //IN GAME
 	{
 		"label" "RESUME"
@@ -110,15 +106,14 @@
 		"OnlyInGame" "1"
 		"tooltip" ""
 	}
-    //QUIT
-    "QuitButton"
+    "QuitButton" //QUIT
 	{
 		"label" "QUIT GAME"
 		"command" "quit"
 		"OnlyAtMenu" "1"
 		"tooltip" ""
 	}
-    "DisconnectButton" //IN GAME
+    "DisconnectButton" //DISCONNECT - REPLACES QUIT IN GAME
 	{
 		"label" "DISCONNECT"
 		"command" "disconnect"

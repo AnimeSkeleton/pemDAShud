@@ -22,20 +22,6 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			""
-		"scaleImage"		"1"
-	}
-	"Background"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"Background"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
 		"image"			"../console/background_upward"
 		"scaleImage"		"1"
 
@@ -95,7 +81,7 @@
 			"tall"			"480"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"stamp_background_map"
+			"image"			"../console/background_upward"
 			"scaleImage"		"1"
 		}
 

@@ -1,5 +1,3 @@
-#base "base/econ/itemmodelpanel.res"
-
 "Resource/UI/Econ/ItemModelPanel.res"
 {	
 	"mouseoveritempanel"
@@ -60,6 +58,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"useparentbg"		"1"
+			"pinCorner"		"5"
 		
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
