@@ -8,22 +8,26 @@
 		"presetbutton_kv"
 		{
 			"zpos"			"20"
-			"wide"			"25"
-			"tall"			"25"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			"wide"			"32"
+			"tall"			"20"
 			"visible"		"0"
 			"enabled"		"1"
-			"tabPosition"	"0"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"ModGothic24"
 			"textAlignment"	"center"
-			"textinsetx"	"0"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"Command"		""
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"centerwrap"	"1"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+
+			"defaultFgColor_override" "OffWhite"
+			"armedFgColor_override" "OffWhite"
+			"depressedFgColor_override" "OffBlack"
+			"defaultBgColor_override" "OffBlack"
+			"armedBgColor_override" "OffBlack"
+			"depressedBgColor_override" "OffWhite"
 		}			
 	}
 }

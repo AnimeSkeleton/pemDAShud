@@ -3,7 +3,7 @@
 	"VersionButton" //LOGO VERSION BUTTON
 	{
 		"label" ""
-		"command" "engine con_enable 1;toggleconsole;clear;echo pemDAS HUD v0.55;echo by RetroSource;echo  ;echo Check for the latest version at;echo github.com/AnimeSkeleton/pemDAShud"
+		"command" "engine con_enable 1;toggleconsole;clear;echo pemDAS HUD v0.56;echo by RetroSource;echo  ;echo Check for the latest version at;echo github.com/AnimeSkeleton/pemDAShud"
 		"OnlyAtMenu" "1"
 		"tooltip" ""
 	} 

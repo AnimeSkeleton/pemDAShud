@@ -6,15 +6,11 @@
 		"fieldName"		"storepreviewitem"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1000"
+		"zpos"			"2000"
 		"wide"			"f0"
 		"tall"			"f0"
-		"autoResize"	"0"
-		"skip_autoresize"	"1"
-		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"		"0"
 		
 		"small_vertical_break_size"		"0"
 		"medium_vertical_break_size"	"6"
@@ -77,7 +73,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override" "0 0 0 128"
+		"bgcolor_override" "0 0 0 0"
 	}
 	
 	// Rounded dialog border
@@ -85,7 +81,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DialogFrame"
-		"xpos"			"c-240"
+		"xpos"			"c-115"
 		"ypos"			"c-150"
 		"zpos"			"0"
 		"wide"			"480"

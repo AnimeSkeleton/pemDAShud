@@ -24,7 +24,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image"			"../console/background_upward_widescreen"
+			"image"			"../console/background_grid"
 		}
 	}
 

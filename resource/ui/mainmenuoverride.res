@@ -1415,7 +1415,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_TitleLabel"
-			"font"			"ModGothic24"
+			"font"			"ModGothic16"
 			"labelText"		"%notititle%"
 			"textAlignment"	"west"
 			"xpos"			"16"
@@ -1434,7 +1434,7 @@
 			"fieldName"		"Notifications_Scroller"
 			"xpos"			"8"
 			"ypos"			"25"
-			"wide"			"210"
+			"wide"			"240"
 			"tall"			"135"
 			"PaintBackgroundType"	"2"
 			"fgcolor_override"	"117 107 94 255"

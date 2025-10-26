@@ -167,7 +167,7 @@
 			"ControlName"	"Button"
 			"fieldName"		"MedalButton"
 			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5+2"
+			"ypos"			"cs-0.5"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"42"
