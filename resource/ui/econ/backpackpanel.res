@@ -27,7 +27,7 @@
 		"button_xpos_offcenter"	"175"		
 		"button_ypos"	"85"
 		"button_ydelta"	"80"
-		"button_override_delete_xpos" "0"
+		"button_override_delete_xpos" "1"
 
 		"page_button_y"	"314"
 		"page_button_x_delta" "3"
@@ -41,9 +41,10 @@
 			"wide"			"10"
 			"tall"			"10"
 			"visible"		"0"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"OffBlack"
+			"fgcolor_override"		"OffWhite"
 			"noitem_textcolor"		"OffBlack"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"1"
 
 			"Button"
@@ -54,7 +55,6 @@
 				"tall"			"13"
 				"visible"		"1"
 				"noitem_textcolor"		"OffBlack"
-				"PaintBackgroundType"	"2"
 				"paintborder"	"1"
 				"textAlignment"	"center"
 				"labelText"		"%page%"
@@ -410,7 +410,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DragToNextPageButton"
-		"xpos"			"c383"
+		"xpos"			"c384"
 		"ypos"			"118"
 		"zpos"			"1"
 		"wide"			"25"

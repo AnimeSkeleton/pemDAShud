@@ -1156,7 +1156,7 @@
 		"ypos"			"110"
 		"zpos"			"1"
 		"wide"			"256"
-		"tall"			"320"
+		"tall"			"192"
 		"visible"		"0"
 		"bgcolor_override"	"OffBlackTp"
 		"PaintBackgroundType"	"2"
@@ -1202,7 +1202,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labeltext"		"X"
-			"font"			"ModGothic16"
+			"font"			"ModGothic24"
 			"textAlignment"	"center"
 			"default"		"0"
 			"actionsignallevel"	"2"
@@ -1276,9 +1276,9 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"50"
 			"zpos"			"100"
-			"wide"			"256"
-			"tall"			"150"
-			"visible"		"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
 			"proportionaltoparent" "1"
 			
 			"MOTD_TitleImage"
@@ -1302,7 +1302,7 @@
 			"ControlName"	"ScrollableEditablePanel"
 			"fieldName"		"MOTD_TextScroller"
 			"xpos"			"10"
-			"ypos"			"200"
+			"ypos"			"50"
 			"wide"			"236"
 			"tall"			"120"
 			"PaintBackgroundType"	"2"
@@ -1462,6 +1462,92 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"0"
+	}
+
+	"FriendsContainer"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"FriendsContainer"
+		"xpos"			"r315"
+		"ypos"			"r147"
+		"zpos"			"-48"
+		"wide"			"256"
+		"tall"			"128"
+		"visible"		"1"
+
+		"SteamFriendsList"
+		{
+			"ControlName"	"CSteamFriendsListPanel"
+			"fieldname"		"SteamFriendsList"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1-10"
+			"zpos"			"500"
+			"wide"			"f10"
+			"tall"			"110"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+
+			"columns_count"	"2"
+			"inset_x"		"4"
+			"inset_y"		"4"
+			"row_gap"		"4"
+			"column_gap"	"4"
+			"restrict_width"	"0"
+
+			"friendpanel_kv"
+			{
+				"wide"		"110"
+				"tall"		"20"
+				
+			}
+
+			"ScrollBar"
+			{
+				"ControlName"	"ScrollBar"
+				"FieldName"		"ScrollBar"
+				"xpos"			"rs1"
+				"ypos"			"0"
+				"tall"			"f0"
+				"wide"			"5" // This gets slammed from client schme.  GG.
+				"zpos"			"1000"
+				"nobuttons"		"1"
+				"proportionaltoparent"	"1"
+
+				"Slider"
+				{
+					"fgcolor_override"	"OffWhite"
+				}
+		
+				"UpButton"
+				{
+					"ControlName"	"Button"
+					"FieldName"		"UpButton"
+					"visible"		"0"
+				}
+		
+				"DownButton"
+				{
+					"ControlName"	"Button"
+					"FieldName"		"DownButton"
+					"visible"		"0"
+				}
+			}
+		}
+
+		"BelowDarken"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"BelowDarken"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"499"
+			"wide"			"256"
+			"tall"			"128"
+			"visible"		"1"	
+			"PaintBackgroundType"	"0"
+
+			"bgcolor_override"	"OffBlackTp"
+		}
 	}
 
 	//SAFEMODE

@@ -12,12 +12,12 @@
 		"PaintBackgroundType"	"0"
 		
 		//Column Position
-		"item_xpos_offcenter_a"	"0"
-		"item_xpos_offcenter_b"	"0"
+		"item_xpos_offcenter_a"	"87"
+		"item_xpos_offcenter_b"	"227"
 		//Starting Y
-		"item_ypos"		"0"
+		"item_ypos"		"62"
 		// Change in Y per row
-		"item_ydelta"	"0"
+		"item_ydelta"	"70"
 		"item_mod_wide"	"0"
 		
 		"item_backpack_offcenter_x"		"0"
@@ -28,211 +28,6 @@
 		"button_ypos"	"0"
 		"button_ydelta"	"0"
 		"button_override_delete_xpos" "0"
-		
-
-		//WEAPON ANCHORS
-		"PrimaryAnchor"
-		{
-			"ControlName"            "EditablePanel"
-			"fieldName"              "PrimaryAnchor"
-			"xpos"                   "r-87"
-			"ypos"                   "62"
-			"wide"                   "1"
-			"tall"                   "1"
-			"visible"                "1"
-			"enabled"                "1"
-		}
-		"SecondaryAnchor"
-		{
-			"ControlName"            "EditablePanel"
-			"fieldName"              "SecondaryAnchor"
-			"xpos"                   "r-87"
-			"ypos"                   "132"
-			"wide"                   "1"
-			"tall"                   "1"
-			"visible"                "1"
-			"enabled"                "1"
-		}
-		"MeleeAnchor"
-		{
-			"ControlName"            "EditablePanel"
-			"fieldName"              "MeleeAnchor"
-			"xpos"                   "r-87"
-			"ypos"                   "202"
-			"wide"                   "1"
-			"tall"                   "1"
-			"visible"                "1"
-			"enabled"                "1"
-		}
-		"PDAAnchor"
-		{
-			"ControlName"            "EditablePanel"
-			"fieldName"              "PDAAnchor"
-			"xpos"                   "r-227"
-			"ypos"                   "202"
-			"wide"                   "1"
-			"tall"                   "1"
-			"visible"                "1"
-			"enabled"                "1"
-		}
-		"WatchAnchor"
-		{
-			"ControlName"            "EditablePanel"
-			"fieldName"              "WatchAnchor"
-			"xpos"                   "r-227"
-			"ypos"                   "202"
-			"wide"                   "1"
-			"tall"                   "1"
-			"visible"                "1"
-			"enabled"                "1"
-		}
-		"SapperAnchor"
-		{
-			"ControlName"            "EditablePanel"
-			"fieldName"              "SapperAnchor"
-			"xpos"                   "r-87"
-			"ypos"                   "62"
-			"wide"                   "1"
-			"tall"                   "1"
-			"visible"                "1"
-			"enabled"                "1"
-		}
-		
-		//COSMETIC ANCHORS
-		"Cosmetic1Anchor"
-		{
-			"ControlName"            "EditablePanel"
-			"fieldName"              "Cosmetic1Anchor"
-			"xpos"                   "r-87"
-			"ypos"                   "272"
-			"wide"                   "1"
-			"tall"                   "1"
-			"visible"                "1"
-			"enabled"                "1"
-		}
-		"Cosmetic2Anchor"
-		{
-			"ControlName"            "EditablePanel"
-			"fieldName"              "Cosmetic2Anchor"
-			"xpos"                   "r-157"
-			"ypos"                   "272"
-			"wide"                   "1"
-			"tall"                   "1"
-			"visible"                "1"
-			"enabled"                "1"
-		}
-		"Cosmetic3Anchor"
-		{
-			"ControlName"            "EditablePanel"
-			"fieldName"              "Cosmetic3Anchor"
-			"xpos"                   "r-297"
-			"ypos"                   "272"
-			"wide"                   "1"
-			"tall"                   "1"
-			"visible"                "1"
-			"enabled"                "1"
-		}
-		"ActionAnchor"
-		{
-			"ControlName"            "EditablePanel"
-			"fieldName"              "ActionAnchor"
-			"xpos"                   "r-227"
-			"ypos"                   "272"
-			"wide"                   "1"
-			"tall"                   "1"
-			"visible"                "1"
-			"enabled"                "1"
-		}
-
-		//TAUNT ANCHORS
-		"Taunt1Anchor"
-		{
-			"ControlName"            "EditablePanel"
-			"fieldName"              "Taunt1Anchor"
-			"xpos"                   "r-87"
-			"ypos"                   "62"
-			"wide"                   "1"
-			"tall"                   "1"
-			"visible"                "1"
-			"enabled"                "1"
-		}
-		"Taunt2Anchor"
-		{
-			"ControlName"            "EditablePanel"
-			"fieldName"              "Taunt2Anchor"
-			"xpos"                   "r-227"
-			"ypos"                   "62"
-			"wide"                   "1"
-			"tall"                   "1"
-			"visible"                "1"
-			"enabled"                "1"
-		}
-		"Taunt3Anchor"
-		{
-			"ControlName"            "EditablePanel"
-			"fieldName"              "Taunt3Anchor"
-			"xpos"                   "r-87"
-			"ypos"                   "132"
-			"wide"                   "1"
-			"tall"                   "1"
-			"visible"                "1"
-			"enabled"                "1"
-		}
-		"Taunt4Anchor"
-		{
-			"ControlName"            "EditablePanel"
-			"fieldName"              "Taunt4Anchor"
-			"xpos"                   "r-227"
-			"ypos"                   "132"
-			"wide"                   "1"
-			"tall"                   "1"
-			"visible"                "1"
-			"enabled"                "1"
-		}
-		"Taunt5Anchor"
-		{
-			"ControlName"            "EditablePanel"
-			"fieldName"              "Taunt5Anchor"
-			"xpos"                   "r-87"
-			"ypos"                   "202"
-			"wide"                   "1"
-			"tall"                   "1"
-			"visible"                "1"
-			"enabled"                "1"
-		}
-		"Taunt6Anchor"
-		{
-			"ControlName"            "EditablePanel"
-			"fieldName"              "Taunt6Anchor"
-			"xpos"                   "r-227"
-			"ypos"                   "202"
-			"wide"                   "1"
-			"tall"                   "1"
-			"visible"                "1"
-			"enabled"                "1"
-		}
-		"Taunt7Anchor"
-		{
-			"ControlName"            "EditablePanel"
-			"fieldName"              "Taunt7Anchor"
-			"xpos"                   "r-87"
-			"ypos"                   "272"
-			"wide"                   "1"
-			"tall"                   "1"
-			"visible"                "1"
-			"enabled"                "1"
-		}
-		"Taunt8Anchor"
-		{
-			"ControlName"            "EditablePanel"
-			"fieldName"              "Taunt8Anchor"
-			"xpos"                   "r-227"
-			"ypos"                   "272"
-			"wide"                   "1"
-			"tall"                   "1"
-			"visible"                "1"
-			"enabled"                "1"
-		}
 
 
 		"modelpanels_kv"
@@ -272,156 +67,6 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
-			}
-
-			//CUSTOM SLOT CHANGES
-			"modelpanel0" //PRIMARY
-			{
-				"wide"			"280"
-				"tall"			"70"
-				"pin_to_sibling"         "PrimaryAnchor"
-				"pin_corner_to_sibling"  "0"
-				"pin_to_sibling_corner"  "0"
-			}
-			"modelpanel1" //SECONDARY
-			{
-				"wide"			"280"
-				"tall"			"70"
-				"pin_to_sibling"         "SecondaryAnchor"
-				"pin_corner_to_sibling"  "0"
-				"pin_to_sibling_corner"  "0"
-			}
-			"modelpanel2" //MELEE
-			{
-				"wide"			"140"
-				"tall"			"70"
-				"pin_to_sibling"         "MeleeAnchor"
-				"pin_corner_to_sibling"  "0"
-				"pin_to_sibling_corner"  "0"
-			}
-			"modelpanel5" //PDA
-			{
-				"wide"			"140"
-				"tall"			"70"
-				"pin_to_sibling"         "PDAAnchor"
-				"pin_corner_to_sibling"  "0"
-				"pin_to_sibling_corner"  "0"
-			}
-
-			"modelpanel4" //SPY SAPPER
-			{
-				"wide"			"280"
-				"tall"			"70"
-				"pin_to_sibling"         "SapperAnchor"
-				"pin_corner_to_sibling"  "0"
-				"pin_to_sibling_corner"  "0"
-			}
-			"modelpanel6" //SPY WATCH
-			{
-				"wide"			"140"
-				"tall"			"70"
-				"pin_to_sibling"         "WatchAnchor"
-				"pin_corner_to_sibling"  "0"
-				"pin_to_sibling_corner"  "0"
-			}
-
-			"modelpanel7" //Cosmetic 1
-			{
-				"wide"			"70"
-				"tall"			"70"
-				"pin_to_sibling"         "Cosmetic1Anchor"
-				"pin_corner_to_sibling"  "0"
-				"pin_to_sibling_corner"  "0"
-			}
-			"modelpanel8" //Cosmetic 2
-			{
-				"wide"			"70"
-				"tall"			"70"
-				"pin_to_sibling"         "Cosmetic2Anchor"
-				"pin_corner_to_sibling"  "0"
-				"pin_to_sibling_corner"  "0"
-			}
-			"modelpanel9" //Cosmetic 3
-			{
-				"wide"			"70"
-				"tall"			"70"
-				"pin_to_sibling"         "Cosmetic3Anchor"
-				"pin_corner_to_sibling"  "0"
-				"pin_to_sibling_corner"  "0"
-			}
-			"modelpanel10" //Action
-			{
-				"wide"			"70"
-				"tall"			"70"
-				"pin_to_sibling"         "ActionAnchor"
-				"pin_corner_to_sibling"  "0"
-				"pin_to_sibling_corner"  "0"
-			}
-
-			//TAUNTS
-			"modelpanel11"
-			{
-				"wide"			"140"
-				"tall"			"70"
-				"pin_to_sibling"         "Taunt1Anchor"
-				"pin_corner_to_sibling"  "0"
-				"pin_to_sibling_corner"  "0"
-			}
-			"modelpanel12"
-			{
-				"wide"			"140"
-				"tall"			"70"
-				"pin_to_sibling"         "Taunt2Anchor"
-				"pin_corner_to_sibling"  "0"
-				"pin_to_sibling_corner"  "0"
-			}
-			"modelpanel13"
-			{
-				"wide"			"140"
-				"tall"			"70"
-				"pin_to_sibling"         "Taunt3Anchor"
-				"pin_corner_to_sibling"  "0"
-				"pin_to_sibling_corner"  "0"
-			}
-			"modelpanel14"
-			{
-				"wide"			"140"
-				"tall"			"70"
-				"pin_to_sibling"         "Taunt4Anchor"
-				"pin_corner_to_sibling"  "0"
-				"pin_to_sibling_corner"  "0"
-			}
-			"modelpanel15"
-			{
-				"wide"			"140"
-				"tall"			"70"
-				"pin_to_sibling"         "Taunt5Anchor"
-				"pin_corner_to_sibling"  "0"
-				"pin_to_sibling_corner"  "0"
-			}
-			"modelpanel16"
-			{
-				"wide"			"140"
-				"tall"			"70"
-				"pin_to_sibling"         "Taunt6Anchor"
-				"pin_corner_to_sibling"  "0"
-				"pin_to_sibling_corner"  "0"
-			}
-			"modelpanel17"
-			{
-				"wide"			"140"
-				"tall"			"70"
-				"pin_to_sibling"         "Taunt7Anchor"
-				"pin_corner_to_sibling"  "0"
-				"pin_to_sibling_corner"  "0"
-			}
-			"modelpanel18"
-			{
-				"wide"			"140"
-				"tall"			"70"
-				"pin_to_sibling"         "Taunt8Anchor"
-				"pin_corner_to_sibling"  "0"
-				"pin_to_sibling_corner"  "0"
 			}
 		}
 
@@ -557,7 +202,7 @@
     {
         "ControlName"                "Panel"
         "xpos"                        "r-88"
-        "ypos"                        "344"
+        "ypos"                        "406"
         "wide"                        "0"
         "tall"                        "0"
         "proportionaltoparent"        "1"
@@ -595,8 +240,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TauntHintLabel"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
+		"labelText"		""
 	}
 
 	"CharacterLoadoutButton"

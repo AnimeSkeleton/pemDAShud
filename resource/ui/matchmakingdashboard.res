@@ -10,7 +10,7 @@
 		"zpos"					"-10"
 		"wide"					"f0"
 		"tall"					"35"
-		"keyboardinputenabled"	"1"
+		"keyboardinputenabled"	"0"
 
 		"collapsed_height"	"120"
 		"expanded_height"	"120"
@@ -31,6 +31,7 @@
 
 		"autoResize"	"3"
 
+		
 		"PartySlot0"
 		{
 			"ControlName"	"CDashboardPartyMember"
