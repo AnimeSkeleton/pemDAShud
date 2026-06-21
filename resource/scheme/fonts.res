@@ -301,22 +301,22 @@ Scheme
 	{
         "8" 
 		{
-			"font" "resource/fonts/ModMixMedium.otf"
+			"font" "resource/fonts/modmixmedium.otf"
 			"name" "H*-Mod Mix Med"
 		}
         "9" 
 		{
-			"font" "resource/fonts/ModMixGothic.ttf"
+			"font" "resource/fonts/modmixgothic.ttf"
 			"name" "H*-Mod Mix Gothic"
 		}
         "10" 
 		{
-			"font" "resource/fonts/TF2Icons.ttf"
+			"font" "resource/fonts/tf2icons.ttf"
 			"name" "TF2 Icons"
 		}
 		"10" 
 		{
-			"font" "resource/fonts/TF2CharacterIcons.ttf"
+			"font" "resource/fonts/tf2charactericons.ttf"
 			"name" "TF2 Character Icons"
 		}
     }
